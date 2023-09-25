@@ -20,8 +20,6 @@ import com.employee.management.service.EmployeeService;
 @RestController
 public class EmployeeController {
 	
-	static final Logger logger  = LogManager.getLogger(EmployeeController.class.getName());
-
 	@Autowired
 	private EmployeeService employeeService;
 	
