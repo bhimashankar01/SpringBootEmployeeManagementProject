@@ -61,9 +61,5 @@ public class DepartmentController {
 			departmentService.deleteDepartmentByID(id);
 		}
 
-		// updating/ patching department by id
-		@PatchMapping("departments/{id}")
-		public void patchDepartmentByID(@RequestBody Department d, @PathVariable int id) {
-			departmentService.patchDepartment(d, id);
-		}
+		
 }
